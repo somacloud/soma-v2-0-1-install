@@ -1,7 +1,6 @@
 # Summary
 
 * [SoMa V2.0.1安装指南](README.md)
-* [版权](ban_quan.md)
 * [概述](gai_shu/README.md)
    * [文档构成](gai_shu/wen_dang_gou_cheng.md)
    * [安装和启动过程简介](gai_shu/an_zhuang_he_qi_dong_guo_cheng_jian_jie.md)
