@@ -68,7 +68,7 @@ windows版本的安装包分为32位安装包和64位安装包，对应的安装
 
 图4-13 新建数据库
 
-### linux版本安装 {#linux}
+### linux版本安装
 
 Linux版本的安装包为postgresql-9.4.5-1-linux-x64.run。安装步骤如下：
 
@@ -83,11 +83,11 @@ sudo ./postgresql-9.4.5-1-linux-x64.run
 
 一直按回车键安装（中间需输入密码，请自行决定postgres超级用户的密码）。
 
-1.  配置环境变量:执行vi /etc/profile修改全局环境变量文件，在profile文件里面添加下面三句话，
+####配置环境变量:执行vi /etc/profile修改全局环境变量文件，在profile文件里面添加下面三句话，
 
-#export JAVA_HOME=/home/java
+export JAVA_HOME=/home/java
 
-#export PATH=$PATH:$JAVA_HOME/bin
+export PATH=$PATH:$JAVA_HOME/bin
 
 export LD_LIBRARY_PATH=/opt/PostgreSQL/9.4/lib:$LD_LIBRARY_PATH
 
@@ -97,17 +97,17 @@ export PGDATA=/opt/PostgreSQL/9.4/data
 
 执行成功后，立即生效可用source /etc/profile。
 
-1.  初始化数据库。
+####初始化数据库。
 
 (1)切换至postgres账户：su postgres
 
 (2) 初始化数据库initdb -D /opt/PostgreSQL/9.4/data
 
-1.  启动postgres服务。
+####启动postgres服务。
 
 /opt/PostgreSQL/9.4 /bin/pg_ctl –D /opt/PostgreSQL/9.4/data start
 
-1.  创建用户并为用户创建数据库。
+####创建用户并为用户创建数据库。
 
 (1)切换至postgres账户：su postgres
 
@@ -115,12 +115,11 @@ export PGDATA=/opt/PostgreSQL/9.4/data
 
 (2)为用户soma创建数据库：createdb –e –O somasomadb
 
-1.  修改/opt/PostgreSQL/9.4/data/pg_hba.conf，修改红色部分。
+####修改/opt/PostgreSQL/9.4/data/pg_hba.conf，修改红色部分。
 
 | # "local" is for Unix domain socket connections only |
-| --- |
 
-1.  启动数据库与关闭数据库。
+####启动数据库与关闭数据库。
 
 切换到数据库用户：su - psotgres
 
