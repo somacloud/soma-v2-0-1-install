@@ -6,61 +6,61 @@ windows版本的安装包分为32位安装包和64位安装包，对应的安装
 
 *   1.  执行安装包文件，会出现如下界面，然后点击**〖**next**〗**。
 
-![postgresql-1.png](assets/postgresql-1.png)
+![postgresql-1.png](../assets/postgresql-1.png)
 
 图4-03 安装第一步
 
 *   1.  出现如下界面，选择安装路径，然后点击**〖**next**〗。**
 
-![postgresql-2.PNG](assets/postgresql-2png.png)
+![postgresql-2.PNG](../assets/postgresql-2png.png)
 
 图4-04 选择安装路径
 
 *   1.  出现如下界面，选择数据保存路径，然后点击**〖**next**〗。**
 
-![postgresql-3.PNG](assets/postgresql-3png.png)
+![postgresql-3.PNG](../assets/postgresql-3png.png)
 
 图4-05 选择数据存储路径
 
 *   1.  出现如下界面，输入数据库的密码，然后点击**〖**next**〗。**
 
-![psotgresql-4.png](assets/psotgresql-4.png)
+![psotgresql-4.png](../assets/psotgresql-4.png)
 
 图4-06 输入用户名和密码
 
 *   1.  出现如下界面，输入数据库的端口号；注意，端口一般都会是默认5432的，请不要随便修改，否则会导致系统出现问题。然后点击**〖**next**〗。**
 
-![psotgresql-5.png](assets/psotgresql-5.png)
+![psotgresql-5.png](../assets/psotgresql-5.png)
 
 图4-07 选择端口号
 
 *   1.  出现如下界面，选择安装的语言，一般都会用简体中文，然后点击**〖**next**〗。**
 
-![postgresql-6.png](assets/postgresql-6.png)
+![postgresql-6.png](../assets/postgresql-6.png)
 
 图4-08 选择语言
 
 *   1.  出现如下界面，确认安装配置，准备安装，点击**〖**next**〗**开始安装**。**
 
-![postgresql-7.png](assets/postgresql-7.png)
+![postgresql-7.png](../assets/postgresql-7.png)
 
 图4-09 准备安装
 
 *   1.  安装完成**。**如果需要安装stack builder，则勾选；这里不需要，所以不需要勾选。点击**〖**finish**〗**完成安装。
 
-![postgresql-8.png](assets/postgresql-8.png)
+![postgresql-8.png](../assets/postgresql-8.png)
 
 图4-10 安装完成
 
 *   1.  安装完成后，通过windows操作系统的“开始”工具栏找到如下目录。打开pgAdminⅢ，进入PostgreSQL自带的可视化工具。
 
-![postgresql.png](assets/postgresql.png)
+![postgresql.png](../assets/postgresql.png)
 
 图4-11 安装目录
 
 *   1.  进入如图界面，添加服务器，如下配置，然后确认添加。
 
-![postgresql-10.png](assets/postgresql-10.png)
+![postgresql-10.png](../assets/postgresql-10.png)
 
 图4-12 数据库配置
 
